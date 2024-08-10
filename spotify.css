@@ -1,0 +1,123 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    
+}
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+.side_bar{
+    background-color: #000;
+    width: 340px;
+    border-radius: 1rem; /*16px*/
+    margin: 0.75rem;
+}
+.main_content{
+    background-color:#121212;;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    margin: 0.75rem;
+}
+.music_player{
+    background-color:black;
+    position: fixed;
+    bottom: 0px ;
+    height: 72px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110px;
+    padding: 0.5rem 0.75rem;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+.nav_option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+}
+.nav_option:hover{
+    opacity: 1;
+}
+.nav_option i{
+    font-size: 1.25rem;
+}
+.nav_option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.playlist{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    font-weight: bold; 
+    margin: 0.5rem; 
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+}
+.option{
+   opacity: 0.7; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    
+}
+.play_option a:hover{
+    opacity: 1; 
+}
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i{
+    margin: 0.5rem;
+    opacity: 0.7;
+}
+.icons i:hover{
+    opacity: 1;
+}
+.play_boxes{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem ;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+    
+}
+.para1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.para2{
+    font-size: 0.75rem;
+    opacity: 0.9;
+}
+.badge{
+    border: none;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
+
+.sticky_nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+}
